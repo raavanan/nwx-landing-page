@@ -1,0 +1,47 @@
+/*custom css*/
+
+.marketing {
+    text-align:center;
+}
+
+#about {
+    margin-bottom:30px;
+}
+#offer{
+    text-align:center;
+}
+#about h2{
+    color:#1A5DA2;
+}
+
+.live {
+    float:right;
+    width:300px;
+}
+.form{
+    width : 60%;
+    float:left;
+    background: #eeeeee;
+    border-radius: 6px;
+    margin:20px;
+    padding:20px;
+}
+.address {
+    float : right;
+    width : 30%;
+    background: #eeeeee;
+    border-radius: 6px;
+    margin:20px;
+    padding:20px;
+}
+
+#contact {
+    background: #eeeeee;
+    border-radius: 6px;
+}
+
+@media (max-width: 768px) 
+    {
+   .form { width :100%;} 
+.address {width : 100%;}
+}
